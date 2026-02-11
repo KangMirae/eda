@@ -9,6 +9,27 @@ This repository contains a high-velocity Exploratory Data Analysis (EDA) of the 
 
 ---
 
+## Where to Look
+* Full Analysis Notebook: notebooks/01_eda_ai_jobs.ipynb
+* Executive Summary: reports/EXECUTIVE_REPORT.md
+* High-Resolution Figures: reports/figures/
+
+---
+
+## EDA Workflow
+
+The analysis followed a structured exploratory pipeline:
+
+1. Data loading and schema inspection (`info`, `describe`)
+2. Missing value analysis (null % distribution)
+3. Nested Grouped IQR filtering (by region + seniority level)
+4. Feature engineering (AI intensity, risk segmentation)
+5. Univariate analysis (distribution & outliers)
+6. Bivariate analysis (correlation & grouped comparison)
+7. Executive insight extraction
+
+---
+
 ## Quick Start (For Evaluators)
 
 This project utilizes **`uv`**, the high-performance Rust-based Python package manager, to ensure ultra-fast and reliable dependency resolution.
@@ -20,6 +41,14 @@ uv sync
 
 # Activate the virtual environment
 source .venv/bin/activate
+```
+
+#### Alternative Setup (Standard pip)
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ### 2. Running the Analysis
@@ -35,6 +64,21 @@ To provide actionable intelligence, the analysis follows a sequential narrative:
 3. The AI Multiplier: Proving the linear correlation between AI technical intensity and professional compensation.
 4. The Automation Trap: Identifying roles driving at full speed toward a "Mechanical Failure" (Displacement risk > 0.7).
 5. Strategic Resilience: Mapping industry-level investment priorities for workforce reskilling.
+
+
+### Why Nested Grouped IQR?
+
+Salary distributions differ significantly across regions and seniority levels.
+Applying a global IQR would remove legitimate high-income roles in mature markets.
+
+To avoid geographic bias, outliers were filtered within each (region, seniority) group.
+This ensures that extreme values are evaluated relative to comparable peers.
+
+*   **Outlier Filtering Details:**
+    * Nested Grouped IQR applied within (region, seniority)
+    * Removed 6.5% of total observations
+    * Post-filter dataset size: n = 4,680
+
 
 ---
 

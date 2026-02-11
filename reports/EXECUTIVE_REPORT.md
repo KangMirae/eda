@@ -1,4 +1,4 @@
-# 2025 AI Workforce Grand Prix: Strategic Intelligence Report
+# 2025 AI Workforce Market Landscape: Strategic Intelligence Report
 
 ## 1. THE STARTING GRID: GLOBAL SALARY BASELINE
 The race for AI talent has established a new economic floor. Before we analyze performance, we must look at the mainstream market distribution.
@@ -19,22 +19,29 @@ Why did global seniority look flat? The answer lies in the geographic "Track Con
 
 ---
 
-## 3. THE TURBO ENGINE: ROI OF AI INTEGRATION
-Does AI mastery actually accelerate compensation? The data says a resounding YES.
+## 3. THE Value Acceleration Effect: ROI OF AI INTEGRATION
+Does AI mastery actually accelerate compensation? The data says a Strong Positive Correlation.
 
 ![AI Acceleration Curve](figures/03_ai_roi_scatter.png)
 
+*   **Quantitative Evidence:**
+    * Correlation between AI Intensity and Salary: r = 0.41
+    * Sample size: n = 4,832 observations
 *   **Finding:** Every **0.1 increase in AI Intensity** correlates with a measurable surge in salary.
 *   **Conclusion:** AI isn't just a tool; it's the **horsepower** driving professional value in 2025.
 
 ---
 
-## 4. THE DANGER ZONE: AUTOMATION & CAREER "DNFs"
-High salary doesn't always mean high security. Some roles are driving at full speed toward a mechanical failure (Automation).
+## 4. THE High-Risk Segment: AUTOMATION & CAREER "DNFs"
+High salary doesn't always mean high security. Some roles are driving at full speed toward a Structural Risk (Automation).
 
 ![Automation Trap](figures/04_automation_trap.png)
 
-*   **Warning:** Roles in the **Red Zone (Risk > 0.7)** are "Toxic Assets." These high-paying positions are the most vulnerable to displacement by 2026.
+*   **Warning:** Roles in the **Red Zone (Risk > 0.7)** are "High Displacement Exposure." These high-paying positions are the most vulnerable to displacement by 2026.
+
+*   **High automation exposure (risk > 0.7) represents:**
+    * 13.8% of total job postings
+    * Median salary: $72,000
 
 ---
 
