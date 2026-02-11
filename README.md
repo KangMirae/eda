@@ -74,10 +74,10 @@ Applying a global IQR would remove legitimate high-income roles in mature market
 To avoid geographic bias, outliers were filtered within each (region, seniority) group.
 This ensures that extreme values are evaluated relative to comparable peers.
 
-*   **Outlier Filtering Details:**
-    * Nested Grouped IQR applied within (region, seniority)
-    * Removed 6.5% of total observations
-    * Post-filter dataset size: n = 4,680
+### Outlier Filtering Details:
+* Nested Grouped IQR applied within (region, seniority)
+* Removed 6.5% of total observations
+* Post-filter dataset size: n = 4,680
 
 
 ---
@@ -109,7 +109,7 @@ This project follows a strict task-based branching model to maintain code integr
 ---
 
 ## Strategic Conclusion
-> "In the 2025 AI race, Geography dictates the starting position, but AI Intensity determines the career velocity. Our recommendation is a shift toward AI-augmented hiring in emerging markets."
+> "The analysis suggests that regional maturity influences baseline salary levels, while AI intensity significantly affects compensation growth. Strategic hiring should therefore consider both geographic structure and AI capability depth."
 
 ---
 

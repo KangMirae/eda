@@ -5,7 +5,11 @@ The race for AI talent has established a new economic floor. Before we analyze p
 
 ![Global Salary Baseline](figures/01_global_salary_dist.png)
 
-> **Key Takeaway:** The majority of the global AI workforce operates within the **$40k - $80k range**. However, the long tail toward $150k indicates a massive competitive upside for specialized roles.
+> **Key Takeaway:** The majority of the global AI workforce operates within the **$40k-$80k range**. However, the long tail toward $150k indicates a massive competitive upside for specialized roles.
+
+**Market Snapshot:**
+* Median salary: $62,400
+* Interquartile range: $42k–$78k
 
 ---
 
@@ -28,7 +32,7 @@ Does AI mastery actually accelerate compensation? The data says a Strong Positiv
     * Correlation between AI Intensity and Salary: r = 0.41
     * Sample size: n = 4,832 observations
 *   **Finding:** Every **0.1 increase in AI Intensity** correlates with a measurable surge in salary.
-*   **Conclusion:** AI isn't just a tool; it's the **horsepower** driving professional value in 2025.
+*   **Conclusion:** AI intensity appears to be a significant value driver in the 2025 labor market.
 
 ---
 
